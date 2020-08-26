@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: rgb(255, 0, 221);
+    text-align: center;
+}
+
+h2 {
+    background-color: rgb(255, 0, 221);
+    color:white;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: rgb(255, 0, 221);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.lang li::before {
+    content: "🗨️";
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 1em;
+}
+
+.prog ::before {
+    content: "👩‍💻";
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 1em;
+}
+
+.tech li::before {
+    content: "⚙️";
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 1em;
+}
+
+.aw li::before {
+    content: "🏆";
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    margin-right: 1em;
+}
+
+.no li::before {
+    content: "";
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -4em;
+}
+
+
+.sub {
+    float: right;
+    width: 70%;
+}
